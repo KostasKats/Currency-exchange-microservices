@@ -1,0 +1,5 @@
+*** Rest template ***
+http://localhost:8100/currency-conversion/from/EU/to/USD/quantity/100
+
+*** Feign client, using proxy ***
+http://localhost:8100/currency-conversion-feign/from/EU/to/USD/quantity/100
