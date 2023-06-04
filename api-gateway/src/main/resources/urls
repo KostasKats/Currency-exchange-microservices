@@ -1,0 +1,8 @@
+API Gateway
+http://host.docker.internal:8765/currency-exchange/currency-exchange/from/EU/to/USD
+http://host.docker.internal:8765/currency-conversion/currency-conversion-feign/from/EU/to/USD/quantity/100
+http://host.docker.internal:8765/currency-conversion/currency-conversion/from/EU/to/USD/quantity/100
+http://host.docker.internal:8765/currency-conversion/currency-conversion-new/from/EU/to/USD/quantity/100 -->
+redirect to http://host.docker.internal:8765/currency-conversion/currency-conversion-feign/from/EU/to/USD/quantity/100
+
+
